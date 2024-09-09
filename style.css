@@ -20,41 +20,90 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 
 }
 
 .wrapper{
-    padding: 1em;
     overflow-wrap: normal;
+    position: relative;
 }
 
 
 h1{
-    font-size: medium;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(97, 31, 62);
 }
 
 h2{
-    font-size: medium;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color:rgb(127, 67, 95);
 }
 
 .p-info{
     text-align: center;
 }
 
-
-.objective{
-    width: 210mm;
+.list-title{
+    font-weight: bold;
 }
 
-.education{
-    width: 210mm;
+.list-whisper{
+    color: rgb(125, 93, 110);
+}
+
+.date{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+
+ul{
+    padding-left: 2em;
+}
+
+#edu1{
+    position: relative;
+}
+
+#edu2{
+    position: relative;
+}
+
+.job{
+    position: relative;
+}
+
+.row {
+    width:100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-style: solid;
+    border-color:rgb(97, 31, 62);;
+    border-width: 2px 0px 0px 0px;
 }
 
 .sect-name{
-    float: left;
-    margin-right: 2px;
-    width: 10%;
+    width: 15%;
 }
+
 .sect-content{
-    float:right;
+    width: 85%;
+}
+
+.resume{
+    font-size: small;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#clearance{
+    padding-left: 1em;
+}
+
+a{
+    color:rgb(148, 0, 69)
 }
